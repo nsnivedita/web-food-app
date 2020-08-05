@@ -1,0 +1,27 @@
+
+/* table header*/
+thead th.position-relative.pr-4{
+    background-color: #636f83 !important;
+    border-color: #758297 !important;
+    color:white;
+   }
+
+   .table th{
+    padding: 0.5rem .5rem .5rem .5rem!important;
+
+   }
+
+   .table  td{
+       padding: 0.3rem .3rem .1rem .3rem!important;
+       
+   }
+   .add-btn{
+       padding: .4rem !important;
+   }
+
+   .description{
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+   }

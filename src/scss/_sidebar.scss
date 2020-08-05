@@ -1,0 +1,43 @@
+.c-sidebar-nav-item a:hover{
+
+    background-color: $sucess !important;
+  
+  
+
+   }
+
+   .c-sidebar-nav-dropdown a:hover{
+    background-color: $sucess !important;
+   }
+ 
+
+   .c-sidebar{
+    max-width:230px;
+    a{
+        text-decoration: none;
+    }
+    .c-sidebar-minimizer{
+       max-width: 230px; 
+    }
+    .c-sidebar-nav-link{
+        max-width: 230px;
+        font-size: 15px;
+    }
+}
+.c-sidebar-brand-full.head b{
+    color: $sucess !important;
+    font-size: 28px;
+    text-decoration: none;
+    //font-family: "Times New Roman", Times, serif;
+}
+
+.c-sidebar .c-sidebar-nav-link.c-active, .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+    color: #fff;
+    background: #4dbd7452 !important;
+}
+@media (min-width: 992px)
+{
+html:not([dir="rtl"]) .c-sidebar.c-sidebar-lg-show:not(.c-sidebar-right).c-sidebar-fixed ~ .c-wrapper, html:not([dir="rtl"]) .c-sidebar.c-sidebar-show:not(.c-sidebar-right).c-sidebar-fixed ~ .c-wrapper {
+    margin-left: 230px;
+}
+}

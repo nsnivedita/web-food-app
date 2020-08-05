@@ -1,0 +1,48 @@
+// If you want to override variables do it here
+@import "variables";
+@import "header";
+@import "modal";
+@import "table";
+@import "form";
+@import "modifier";
+@import 'order';
+// Import CoreUI styles
+@import "~@coreui/coreui-pro/scss/coreui.scss";;
+
+@import "sidebar";
+
+// If you want to add something do it here
+@import "custom";
+
+body{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  letter-spacing:0.5px;
+
+}
+  
+  /*.button-default {
+    background: #247BA0;
+    color: #fff;
+  }*/
+
+  /*form add button*/
+  .addBtn{
+    float:right
+  }
+
+
+ 
+  
+
+   
+.formCard .card{
+
+  margin-bottom: 1rem;
+  .card-body{
+    padding: 1rem 1.5rem ;
+  }
+
+}
+/* Sub header  */

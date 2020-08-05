@@ -1,0 +1,19 @@
+.modal-dialog{
+    max-width: 800px !important;
+  }
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0 0 1rem 0;
+}
+
+.modal-header{
+  padding:.5rem 2rem !important;
+  color: $light !important;
+  background-color:$darkGray !important;
+
+}
+
+ .formCard .card {
+  margin-bottom: .2rem !important;
+} 

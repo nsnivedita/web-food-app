@@ -1,0 +1,21 @@
+.scrollBar {
+  height: 500px;
+  overflow: scroll;
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+}
+.modifier-btn:hover{
+  background-color:$lightDarkGray;
+}
+
+
+.c-active-modifier {
+  .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: $lightDarkGray !important;
+    border-color: $lightDarkGray !important;
+  }
+}
